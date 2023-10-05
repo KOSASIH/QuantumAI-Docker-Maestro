@@ -62,3 +62,91 @@ In this Python script, we first import the necessary libraries, including `numpy
 Next, we create an instance of the `LinearRegression` model and fit it to the generated data using the `fit` method. This trains the model on the data and finds the best fit line.
 
 Finally, we use the trained model to predict the target variable for new data. In this example, we predict the target variable for a new data point with a feature value of 1.5. The predicted value is printed to the console.
+
+# Create App 
+
+```python
+# app.py
+
+from flask import Flask, render_template, request
+import numpy as np
+import pandas as pd
+import joblib
+
+app = Flask(__name__)
+
+# Load the trained model
+model = joblib.load("model.pkl")
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+@app.route("/predict", methods=["POST"])
+def predict():
+    if request.method == "POST":
+        # Get the uploaded file
+        file = request.files["file"]
+
+        # Read the uploaded file as a pandas DataFrame
+        data = pd.read_csv(file)
+
+        # Perform predictions using the trained model
+        predictions = model.predict(data)
+
+        # Convert the predictions to a list
+        predictions = predictions.tolist()
+
+        return render_template("result.html", predictions=predictions)
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```
+
+```html
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI/ML App</title>
+</head>
+<body>
+    <h1>Upload Data</h1>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
+```
+
+```html
+<!-- templates/result.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI/ML App - Results</title>
+</head>
+<body>
+    <h1>Results</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Prediction</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for prediction in predictions %}
+            <tr>
+                <td>{{ prediction }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+```
+
+Make sure to save the trained model as "model.pkl" in the same directory as the Flask app.
