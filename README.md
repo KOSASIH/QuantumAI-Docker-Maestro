@@ -8,7 +8,8 @@ Create an app that masters the art of AI/ML within Docker, aiming for concept va
 - [Vision and Mission](#vision-and-mission)
 - [Our Technologies](#our-technologies)
 - [Challenges We Run In To](#challenges-we-run-in-to)
-- [Tutorials](#tutorials) 
+- [Tutorials](#tutorials)
+- [License](
 
 # Description 
 
