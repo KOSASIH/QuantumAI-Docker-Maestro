@@ -24,4 +24,8 @@ As we look to the future, we remain committed to pushing the boundaries of techn
 
 Thank you for being part of our journey.
 
+5 October 2023
+
 [KOSASIH](https://www.linkedin.com/in/kosasih-81b46b5a) 
+
+QuantumAI Docker Maestro Creator
