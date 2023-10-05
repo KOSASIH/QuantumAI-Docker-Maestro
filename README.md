@@ -11,7 +11,7 @@ Create an app that masters the art of AI/ML within Docker, aiming for concept va
 - [Tutorials](#tutorials)
 - [License](https://github.com/KOSASIH/QuantumAI-Docker-Maestro/blob/main/LICENSE)
 - [Our Roadmap](#our-roadmap)
-- [Aknowledgement](
+- [Aknowledgement](https://github.com/KOSASIH/QuantumAI-Docker-Maestro/blob/main/acknowledgment.md) 
 
 # Description 
 
