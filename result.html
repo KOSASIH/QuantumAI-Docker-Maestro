@@ -1,0 +1,25 @@
+<!-- templates/result.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI/ML App - Results</title>
+</head>
+<body>
+    <h1>Results</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Prediction</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for prediction in predictions %}
+            <tr>
+                <td>{{ prediction }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
