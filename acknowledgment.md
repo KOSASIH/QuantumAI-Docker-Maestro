@@ -24,4 +24,4 @@ As we look to the future, we remain committed to pushing the boundaries of techn
 
 Thank you for being part of our journey.
 
-[KOSASIH](
+[KOSASIH](https://www.linkedin.com/in/kosasih-81b46b5a) 
