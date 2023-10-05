@@ -5,9 +5,9 @@ Create an app that masters the art of AI/ML within Docker, aiming for concept va
 # Contents: 
 
 - [Description](#description)
-- [Vision and Mission](#vision_and_mission)
-- [Our Technologies](#our_technologies)
-- [Challenges We Run In To](#challenges_we_run_in_to) 
+- [Vision and Mission](#vision-and-mission)
+- [Our Technologies](#our-technologies)
+- [Challenges We Run In To](#challenges-we-run-in-to) 
 
 # Description 
 
