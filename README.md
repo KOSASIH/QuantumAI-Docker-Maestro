@@ -7,7 +7,8 @@ Create an app that masters the art of AI/ML within Docker, aiming for concept va
 - [Description](#description)
 - [Vision and Mission](#vision-and-mission)
 - [Our Technologies](#our-technologies)
-- [Challenges We Run In To](#challenges-we-run-in-to) 
+- [Challenges We Run In To](#challenges-we-run-in-to)
+- [Tutorials](#tutorials) 
 
 # Description 
 
@@ -115,7 +116,7 @@ Developing and maintaining QuantumAI Docker Maestro is a complex endeavor, and t
 
 Despite these challenges, the development team's expertise, perseverance, and problem-solving abilities are essential for overcoming obstacles and ensuring the continued success of QuantumAI Docker Maestro.
 
-# Tutorials: 
+# Tutorials
 
 ## Dockerfile 
 
