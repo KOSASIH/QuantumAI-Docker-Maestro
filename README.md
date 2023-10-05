@@ -8,6 +8,7 @@ Create an app that masters the art of AI/ML within Docker, aiming for concept va
 - [Vision and Mission](#vision-and-mission)
 - [Our Technologies](#our-technologies)
 - [Challenges We Run In To](#challenges-we-run-in-to)
+- [Contributor Guide](#contributor-guide) 
 - [Tutorials](#tutorials)
 - [License](https://github.com/KOSASIH/QuantumAI-Docker-Maestro/blob/main/LICENSE)
 - [Our Roadmap](#our-roadmap)
@@ -118,6 +119,10 @@ Developing and maintaining QuantumAI Docker Maestro is a complex endeavor, and t
 13. **Regulatory Compliance:** Adhering to industry-specific regulations and compliance standards, such as HIPAA in healthcare or GDPR in data privacy, can add complexity to development and deployment.
 
 Despite these challenges, the development team's expertise, perseverance, and problem-solving abilities are essential for overcoming obstacles and ensuring the continued success of QuantumAI Docker Maestro.
+
+# Contributor Guide 
+
+Before contribute to this project, please read our [Code Of Conduct](https://github.com/KOSASIH/.github/blob/master/CODE_OF_CONDUCT.md) 
 
 # Tutorials
 
