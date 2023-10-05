@@ -32,7 +32,7 @@ QuantumAI Docker Maestro isn't just an app; it's a technological masterpiece tha
 
 ## Dockerfile 
 
-Sure! Here's the markdown code for a Dockerfile that sets up the environment for an AI/ML app with TensorFlow, PyTorch, and scikit-learn dependencies:
+Here's the markdown code for a Dockerfile that sets up the environment for an AI/ML app with TensorFlow, PyTorch, and scikit-learn dependencies:
 
 ```dockerfile
 # Use an official Python runtime as the base image
