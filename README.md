@@ -122,7 +122,7 @@ Despite these challenges, the development team's expertise, perseverance, and pr
 
 # Contributor Guide 
 
-Before contribute to this project, please read our [Code Of Conduct](CODE_OF_CONDUCT.md). 
+Before contribute to this project, please read our Code Of Conduct. 
 
 # Tutorials
 
